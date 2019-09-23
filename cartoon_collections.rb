@@ -19,5 +19,5 @@ end
 
 def find_the_cheese(dish)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  dish.filter{|ingredient| ingredient == cheese_types}
+  dish.filter{|ingredient| cheese_types}
 end
