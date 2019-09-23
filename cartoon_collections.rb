@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarfs)
-  dwarfs.each
+  dwarfs.map {|a| a.to_s}
   dwarfs.each_with_index {|dwarfs,index|
     dwarfs[index] = index
   }
