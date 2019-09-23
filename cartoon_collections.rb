@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarfs)
+  dwarf
   dwarfs.map {|a| a.to_s}
   
 end
