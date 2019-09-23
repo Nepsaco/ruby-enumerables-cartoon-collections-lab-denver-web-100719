@@ -13,6 +13,7 @@ end
 def long_planeteer_calls(planet_calls)
   if planet_calls.none? {|word| word.length > 4}
     planet_calls.one? {|word| word.length < 4}
+  end
 end
 
 def find_the_cheese# code an argument here
